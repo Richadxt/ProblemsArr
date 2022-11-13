@@ -3,8 +3,8 @@ import java.util.*;
 public class NucleusSoft {
     public static void fun(int N){
         int A=0,res=0,ans=0;
-        int i=1;
-        while(i<=1000){
+       
+        for(int i=0;i<=100;i++){
             if (i % N == 0 && i != N) {
                 ans = i;
             }
@@ -13,10 +13,9 @@ public class NucleusSoft {
                     res = res + A;
                     ans = ans / 10;
                 }
-            if(res!=N)
-                i++;
-            else
+            if(res==N)
                     System.out.println(i);
+            break;
         }
     }
     public static void main(String[] args){
