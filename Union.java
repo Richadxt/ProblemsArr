@@ -1,3 +1,5 @@
+// FIND UNION OF TWO SORTED ARRAY
+
 public class Union {
     public static void main (String[] args)
     {
@@ -34,6 +36,7 @@ public class Union {
                 j++;
             }
         }
+
            //        Both loop executed only when array have extra element
            //        for extra element in first array
 

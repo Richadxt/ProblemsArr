@@ -1,5 +1,7 @@
 import java.util.*;
 
+// SORT THE ARRAY OF 0S 1S AND 2S
+
 public class Sort012s {
         static void sortArr(int arr[], int n)
         {

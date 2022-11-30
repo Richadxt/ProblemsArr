@@ -1,5 +1,7 @@
 import java.util.*;
 
+// SUBARRAY WITH GIVEN SUM
+
 public class SubarraySum {
         public static void subArr(int arr[], int n, int sum)
         {

@@ -1,4 +1,6 @@
 import java.util.*;
+
+// MOVE ALL THE NEGATIVE ELEMENTS TO THE ONE SIDE OF THE ARRAY
 public class MoveNegatives {
 
      void movNeg(int arr[],int n){
